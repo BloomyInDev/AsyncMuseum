@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('/roboto.ttf');
+}
+
+body {
+    font-family: 'Roboto', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    background-color: #0061a1;
+    margin: 0;
+}
+
