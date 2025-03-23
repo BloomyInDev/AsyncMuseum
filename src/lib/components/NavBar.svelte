@@ -3,13 +3,15 @@
 </script>
 
 <nav>
-    <a href="/">Acceuil</a>
+    <a href="/">Accueil</a>
+    <a href="/shop">Acheter votre ticket</a>
 </nav>
 
 <style>
     nav {
         display: flex;
         flex-direction: row;
+        gap: .5rem;
     }
 
     nav > a {
