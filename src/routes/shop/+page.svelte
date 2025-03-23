@@ -24,9 +24,6 @@
 		width: 50%;
 	}
 
-	form {
-	}
-
 	@media (max-width: 616px) {
 		article {
 			flex-direction: column;

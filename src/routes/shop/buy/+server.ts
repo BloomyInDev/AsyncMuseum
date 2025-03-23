@@ -20,11 +20,11 @@ export const POST: RequestHandler = async (req) => {
     const db = await prisma.sales.upsert({
         create: {
             name: "AsyncMuseum",
-            numberOfSales: 1
+            numberOfSales: numberOfTicketSold
         },
         update: {
             numberOfSales: {
-                increment: 1
+                increment: numberOfTicketSold
             }
         },
         where: {
